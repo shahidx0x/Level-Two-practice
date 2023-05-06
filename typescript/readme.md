@@ -9,8 +9,8 @@ To get started, simply clone this repository and open the `playground.ts` file i
 ```bash
 git clone https://github.com/yourusername/typescript-playground.git
 cd typescript-playground
-```bash
-Contents
+
+## Contents
 In the playground.ts file, you'll find examples of the following TypeScript features:
 
 Variables and data types
@@ -25,18 +25,14 @@ Unknown data type
 Running the Code
 To run the TypeScript code, you'll first need to install TypeScript and ts-node globally:
 
-bash
-Copy code
 npm install -g typescript ts-node
 Next, run the playground.ts file using ts-node:
 
-bash
-Copy code
 ts-node playground.ts
 This will execute the code and print the output to the console.
 
-Contributing
+## Contributing
 Contributions are welcome! Feel free to submit pull requests or create issues to suggest improvements or new examples.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.

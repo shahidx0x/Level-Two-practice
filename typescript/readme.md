@@ -9,6 +9,7 @@ To get started, simply clone this repository and open the `playground.ts` file i
 ```bash
 git clone https://github.com/yourusername/typescript-playground.git
 cd typescript-playground
+```bash
 Contents
 In the playground.ts file, you'll find examples of the following TypeScript features:
 

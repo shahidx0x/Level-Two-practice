@@ -79,3 +79,14 @@ const responce: genericTopple<customObject, string> = [{
 },
 "hello fellas"
 ]
+// generic with interface
+
+interface customInterface<T,U = undefined>{
+    name: T,
+    age: U
+}
+
+const responce_dui: customInterface<string, number> = {
+    name: "shahid",
+    age:20
+}

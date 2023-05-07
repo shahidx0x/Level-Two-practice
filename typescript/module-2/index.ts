@@ -63,6 +63,10 @@ const istring: custome_generic<string> = ["aa"];
 //generic tupple
 
 type genericTopple<X, Y> = [X, Y];
+interface anyInterface<U,T>{
+    name: T,
+    numbers: U
+}
 
 const check_kori: genericTopple<number, string> = [1, "hello"];
 

@@ -48,3 +48,19 @@ interface ISameJinis{
 const usekorInterface: ISameJinis = (x, y) => {
     return x; // number
 }
+
+
+//generics
+
+const numbers: Array<number> = [1, 2, 3, 4, 5, 6];
+
+//custom generics template
+
+type custome_generic<T> = Array<T> // T mane jekono type hote pare
+
+const istring: custome_generic<string> = ["aa"];
+
+type generics_custom = {
+    name: string
+    
+}

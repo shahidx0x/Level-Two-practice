@@ -101,3 +101,32 @@ const func_gen = <T>(arg: T): T => {
     return arg;
 }
 console.log(func_gen("string"));
+
+// constrains in generics
+
+type users = {
+    name: string,
+    age: number,
+    other:string
+}
+
+const userData:users = {
+    name: "shahid",
+    age: 10,
+    other:"hello"
+}
+
+// constrains set in generics mane generic diye bole dilam je eigula thakte hobe
+// protome ki ki thakte hobe setar ekta interface banabo
+
+interface eigula_thakte_hobe{
+    name: string,
+    age:number
+}
+//ekhn function e applay korlam
+const applay_korlam = <T extends eigula_thakte_hobe>(arg: T): T => {
+    return arg;
+}
+applay_korlam(userData);
+
+

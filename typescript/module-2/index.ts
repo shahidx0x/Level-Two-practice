@@ -65,3 +65,17 @@ const istring: custome_generic<string> = ["aa"];
 type genericTopple<X, Y> = [X, Y];
 
 const check_kori: genericTopple<number, string> = [1, "hello"];
+
+// for object with custom type same for interface
+
+type customObject = {
+    name: string,
+    age:number
+}
+
+const responce: genericTopple<customObject, string> = [{
+    name: "shahid",
+    age:12
+},
+"hello fellas"
+]

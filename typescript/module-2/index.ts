@@ -60,7 +60,8 @@ type custome_generic<T> = Array<T> // T mane jekono type hote pare
 
 const istring: custome_generic<string> = ["aa"];
 
-type generics_custom = {
-    name: string
-    
-}
+//generic tupple
+
+type genericTopple<X, Y> = [X, Y];
+
+const check_kori: genericTopple<number, string> = [1, "hello"];

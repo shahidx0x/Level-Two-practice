@@ -148,4 +148,5 @@ function getArrayItem<T, K extends keyof T>(arr: T[], index: number, key: K): T[
   function fullName<T extends Person>(person: T): string {
     return `${person.firstName} ${person.lastName}`;
 }
+console.log(fullName({ firstName: "shahid", lastName: "Abdulla" }));
   

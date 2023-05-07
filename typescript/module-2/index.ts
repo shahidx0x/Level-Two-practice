@@ -94,3 +94,10 @@ const responce_dui: customInterface<string, number> = {
     name: "shahid",
     age:20
 }
+
+//generic in funtion
+
+const func_gen = <T>(arg: T): T => {
+    return arg;
+}
+console.log(func_gen("string"));
